@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        "home": "url('/assets/bg.png')"
+        "home": "url('/src/Cardapio/src/assets/images/bg.png')"
       }
     },
   },
