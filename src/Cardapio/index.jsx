@@ -3,6 +3,8 @@ import Hamb2 from "./src/assets/images/hamb-2.png"
 import Hamb3 from "./src/assets/images/hamb-3.png"
 import Hamb4 from "./src/assets/images/hamb-4.png"
 import Coca from "./src/assets/images/refri-1.png"
+import Guarana from "./src/assets/images/refri-2.png"
+import Carrrinho from "./src/assets/images/Carrinho.png"
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity=
 "sha512-F03r1rZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuR1Ez0+tcaEPQogQ@KaGN26/zrn20ImR1DfuLWn07aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -29,7 +31,7 @@ export default function Cardapio (){
                 
                     <div className=" flex gap-2">
                         <img src={Hamb2} alt="Bacon cheadder" className="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"  />
-                    <div>
+                    <div className="w-96">
                         <p className="font-bold">Double Bacon</p>
                         <p className="text-sm">Pão levinho com muito cheddar bacon e dois hambugers</p>
                     <div className=" flex items-center gap-2 justify-between mt-3">
@@ -41,7 +43,7 @@ export default function Cardapio (){
 
                     <div className=" flex gap-2">
                         <img src={LogoBurger} alt="Bacon cheadder" className="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"  />
-                    <div>
+                    <div className="w-96">
                         <p className="font-bold">Smashzada</p>
                         <p className="text-sm">Pão levinho com muito cheddar bacon e dois hambugers</p>
                     <div className=" flex items-center gap-2 justify-between mt-3">
@@ -53,7 +55,7 @@ export default function Cardapio (){
                     
                     <div className=" flex gap-2">
                         <img src={Hamb3} alt="Bacon cheadder" className="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"  />
-                    <div>
+                    <div className="w-96">
                         <p className="font-bold">Cheddar Duplo</p>
                         <p className="text-sm">Pão levinho com muito cheader bacon e dois hambugers</p>
                     <div className=" flex items-center gap-2 justify-between mt-3">
@@ -65,7 +67,7 @@ export default function Cardapio (){
                     
                     <div className=" flex gap-2">
                         <img src={Hamb4} alt="Bacon cheadder" className="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"  />
-                    <div>
+                    <div className="w-96">
                         <p className="font-bold">Chicken</p>
                         <p className="text-sm">Pão levinho com muito cheader bacon e dois hambugers</p>
                     <div className=" flex items-center gap-2 justify-between mt-3">
@@ -85,20 +87,34 @@ export default function Cardapio (){
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu ">
                 <div className=" flex gap-2 w-full">
                         <img src={Coca} alt="Bacon cheadder" className="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"  />
-                    <div className="w-full">
+                    <div className="w-96">
                         <p className="font-bold">CocaCola</p>
-                        <p className="text-sm"></p>
                     <div className=" flex items-center gap-2 justify-between mt-3">
                         <p className="font-bold text-lg">R$ 8.00</p>
                         <button data-price="8.00" data-name="CocaCola" className="bg-green-600 rounded-md w-16 h-8 text-white font-medium buy-to-btn">ADD</button>
                         </div>
                     </div>
                     </div>
+                <div className=" flex gap-2 w-full">
+                        <img src={Guarana} alt="Bacon cheadder" className="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"  />
+                    <div className="w-96">
+                        <p className="font-bold">Guaraná</p>
+                    <div className=" flex items-center gap-2 justify-between mt-3">
+                        <p className="font-bold text-lg">R$ 6.00</p>
+                        <button data-price="6.00" data-name="Guarana" className="bg-green-600 rounded-md w-16 h-8 text-white font-medium buy-to-btn">ADD</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
                 </div>
 
-
-                </div>
-
+                <footer className="w-full bg-red-500 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+                    <button id="cart-btn" className="flex gap-2 items-center font-bold text-white">
+                       (<span id="cart-count">2</span>)
+                        Veja meu carrinho 
+                        <img className="w-7" src={Carrrinho} alt="" />
+                    </button>
+                </footer>
 
 
 
