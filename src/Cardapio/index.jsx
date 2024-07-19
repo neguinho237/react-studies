@@ -66,8 +66,8 @@ export default function Cardapio (){
             <header className="w-full h[420px] bg-zinc-900 bg-home bg-cover bg-center">
                 <div className="w-full h-full flex flex-col justify-center items-center">
                     <img className="mt-6 w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200" src={LogoBurger} alt="Logo DevBuger" />
-                    <h1 className="text-4xl text-white mt-4 mb-2 font-bold">Dev Burger</h1>
-                    <span className="text-white font-medium">Rua dos modernos mais chavão</span>
+                    <h1 className="text-4xl text-white mt-4 mb-2 font-bold">DonaldsMc</h1>
+                    <span className="text-white font-medium">Rua Fim do arco-iris 777</span>
                     <div className="bg-green-600 px-4 py-1 rounded-lg mt-5 mb-8" id="date-span">
                         <span className="text-white font-medium">Seg á Dom - 18:00 as 22:00</span>
                     </div>
