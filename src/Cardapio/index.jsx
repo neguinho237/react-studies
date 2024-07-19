@@ -9,6 +9,56 @@ import Carrrinho from "./src/assets/images/Carrinho.png"
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity=
 "sha512-F03r1rZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuR1Ez0+tcaEPQogQ@KaGN26/zrn20ImR1DfuLWn07aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
+const menu = document.getElementById("menu")
+const cartBtn = document.getElementById("cart-btn")
+const cartModal = document.getElementById ("cart-modal")
+const cartItemsContainer = document.getElementById("cart-items")
+const cartTotak = document.getElementById ("cart-total")
+const checkoutBtn = document.getElementById("checkout-btn")
+const closeModalBtn = document.getElementById ("close-modal-btn")
+const cartCounter = document.getElementById ("cart-count")
+const addressInput = document.getElementById ("address")
+const addressWarn = document.getElementById ("address-warn")
+
+let cart = [];
+
+cartBtn.addEventListener("click", function(){
+    cartModal.style.display = "flex"
+})
+
+cartModal.addEventListener("click", function(event){
+    if(event.target === cartModal){
+        cartModal.style.display = "none"
+    }
+})
+
+closeModalBtn.addEventListener ("click", function(){
+    cartModal.style.display = "none"
+})
+
+menu.addEventListener("click", function(event){
+    let parentButton = event.target.closest(".buy-to-btn")
+    if(parentButton){
+        const name = parentButton.getAttribute("data-name")
+        const price = parseFloat (parentButton.getAttribute("data-price"))
+        addCart (name, price)
+    }
+}) 
+
+function addCart (name, price){
+    const existingItem = cart.find (item => item.name === name)
+    if(existingItem){
+        existingItem =+ 1;
+        return;
+    }
+    cart.push({
+        name,
+        price,
+        quanty:1,
+    })
+}
+
 export default function Cardapio (){
     return(
         
@@ -108,7 +158,7 @@ export default function Cardapio (){
                 </div>
                 </div>
 
-                <div className="bg-black/60 hidden items-center justify-center w-full h-full fixed top-0 left-0 z-[99]">
+                <div className="bg-black/60 hidden items-center justify-center w-full h-full fixed top-0 left-0 z-[99]" id="cart-modal">
                     <div className=" bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
                         <h2 className="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
                         <div id="cart-items" className="flex justify-between mb-2 flex-col">
@@ -132,8 +182,7 @@ export default function Cardapio (){
                     </button>
                 </footer>
 
-
-
+                
 
 
 
