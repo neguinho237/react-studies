@@ -10,54 +10,54 @@ import Carrrinho from "./src/assets/images/Carrinho.png"
 "sha512-F03r1rZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuR1Ez0+tcaEPQogQ@KaGN26/zrn20ImR1DfuLWn07aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-const menu = document.getElementById("menu")
-const cartBtn = document.getElementById("cart-btn")
-const cartModal = document.getElementById ("cart-modal")
-const cartItemsContainer = document.getElementById("cart-items")
-const cartTotak = document.getElementById ("cart-total")
-const checkoutBtn = document.getElementById("checkout-btn")
-const closeModalBtn = document.getElementById ("close-modal-btn")
-const cartCounter = document.getElementById ("cart-count")
-const addressInput = document.getElementById ("address")
-const addressWarn = document.getElementById ("address-warn")
+// const menu = document.getElementById("menu")
+// const cartBtn = document.getElementById("cart-btn")
+// const cartModal = document.getElementById ("cart-modal")
+// const cartItemsContainer = document.getElementById("cart-items")
+// const cartTotak = document.getElementById ("cart-total")
+// const checkoutBtn = document.getElementById("checkout-btn")
+// const closeModalBtn = document.getElementById ("close-modal-btn")
+// const cartCounter = document.getElementById ("cart-count")
+// const addressInput = document.getElementById ("address")
+// const addressWarn = document.getElementById ("address-warn")
 
-let cart = [];
+// let cart = [];
 
-cartBtn.addEventListener("click", function(){
-    cartModal.style.display = "flex"
-})
+// cartBtn.addEventListener("click", function(){
+//     cartModal.style.display = "flex"
+// })
 
-cartModal.addEventListener("click", function(event){
-    if(event.target === cartModal){
-        cartModal.style.display = "none"
-    }
-})
+// cartModal.addEventListener("click", function(event){
+//     if(event.target === cartModal){
+//         cartModal.style.display = "none"
+//     }
+// })
 
-closeModalBtn.addEventListener ("click", function(){
-    cartModal.style.display = "none"
-})
+// closeModalBtn.addEventListener ("click", function(){
+//     cartModal.style.display = "none"
+// })
 
-menu.addEventListener("click", function(event){
-    let parentButton = event.target.closest(".buy-to-btn")
-    if(parentButton){
-        const name = parentButton.getAttribute("data-name")
-        const price = parseFloat (parentButton.getAttribute("data-price"))
-        addCart (name, price)
-    }
-}) 
+// menu.addEventListener("click", function(event){
+//     let parentButton = event.target.closest(".buy-to-btn")
+//     if(parentButton){
+//         const name = parentButton.getAttribute("data-name")
+//         const price = parseFloat (parentButton.getAttribute("data-price"))
+//         addCart (name, price)
+//     }
+// }) 
 
-function addCart (name, price){
-    const existingItem = cart.find (item => item.name === name)
-    if(existingItem){
-        existingItem =+ 1;
-        return;
-    }
-    cart.push({
-        name,
-        price,
-        quanty:1,
-    })
-}
+// function addCart (name, price){
+//     const existingItem = cart.find (item => item.name === name)
+//     if(existingItem){
+//         existingItem =+ 1;
+//         return;
+//     }
+//     cart.push({
+//         name,
+//         price,
+//         quanty:1,
+//     })
+// }
 
 export default function Cardapio (){
     return(
