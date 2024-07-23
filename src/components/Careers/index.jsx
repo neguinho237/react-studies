@@ -6,7 +6,7 @@ export default function Careers (){
             <header className="h-44 max-w-3xl flex flex-col justify-center items-center">
                 <p className="font-bold text-1">Tagline</p>
                 <h1 className="font-bold text-5xl mt-4">Job Openings</h1>
-                <p className="mt-6">Lore ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </p>
+                <p className="mt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </p>
             </header>
             <main>
                 <div className="flex justify-between">
