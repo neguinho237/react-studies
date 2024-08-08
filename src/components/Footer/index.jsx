@@ -17,7 +17,7 @@ export default function Footer (){
                 <a className="font-semibold" href="link four">Link four</a>
                 <a className="font-semibold" href="link five">Link five</a>
                 </div>
-                <div className="flex gap-5">
+                <div className="flex gap-6">
                     <a target="blank" href="https://www.facebook.com/">
                     <img src={Facebook} alt="" />
                     </a>
