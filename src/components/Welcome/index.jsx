@@ -4,9 +4,11 @@ export default function Welcome(){
     return(
         <div className="Container ">
             <div className="Header ">
-                <div className="flex">
+                <div className="flex justify-between">
+                    <div className="flex gap-3 ">
                     <img src={Symbol} alt="" />
-                    <h1>Relume</h1>
+                    <h1 className = "mt-4">Relume</h1>
+                    </div>
                     <li><a className="text-slate-950" href="">relume</a></li>
                 </div>
                 <h1>O rato roeu a roupa do rei de Roma</h1>
