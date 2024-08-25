@@ -1,4 +1,5 @@
 import Symbol from "./src/assets/images/Symbol.svg"
+import Raio from "./src/assets/images/Raio.svg"
 
 export default function Welcome(){
     return(
@@ -17,7 +18,7 @@ export default function Welcome(){
                 </div>
             </div>
             <div className="Main">
-                <div className="flex gap-16">
+                <div className="flex gap-52">
                     <div className="mt-16 ml-6">
                 <div className="linha max-w-3xl h-1 bg-slate-300 "></div>
                 <div>
@@ -40,6 +41,17 @@ export default function Welcome(){
                     <p className=" flex h-24 w-80 mt-5">Built in partnership with the team at Minimal Square</p>
                     </div>
                 </div>
+                </div>
+                <div className="ml-6">
+                    <div className="raio flex gap-3">
+                        <img src={Raio} alt="" />
+                        <h1 className="text-sm font-semibold">To improve your Figma to Webflow workflow</h1>
+                    </div>
+                    <div className="ml-6 mt-3">
+                            <p className="text-lg text-gray-500"> . Design wireframes for any project as speed.</p>
+                            <p className="text-lg text-gray-500"> . Ensure that designs are compatible with Relume Library Webflow components</p>
+                            <p className="text-lg text-gray-500"> . Make design changes to components faster.</p>
+                        </div>
                 </div>
             </div>
         </div>
