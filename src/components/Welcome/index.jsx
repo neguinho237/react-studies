@@ -1,9 +1,9 @@
 import Symbol from "./src/assets/images/Symbol.svg"
 import Raio from "./src/assets/images/Raio.svg"
-
+import Social from "./src/assets/images/Social.svg"
 export default function Welcome(){
     return(
-        <div className="Container ">
+        <div className="Container ml- ">
             <div className="Header ">
                 <div className="flex justify-between  mt-16">
                     <div className="flex ml-5 gap-4 ">
@@ -52,6 +52,20 @@ export default function Welcome(){
                             <p className="text-lg text-gray-500"> . Ensure that designs are compatible with Relume Library Webflow components</p>
                             <p className="text-lg text-gray-500"> . Make design changes to components faster.</p>
                         </div>
+                    
+                    <div className="raio flex gap-3 mt-6">
+                        <img src={Social} alt="" />
+                        <h1 className="text-sm font-semibold">To improve your Figma to Webflow workflow</h1>
+                    </div>
+                    <div className="ml-6 mt-3">
+                            <p className="text-lg text-gray-500"> . Design wireframes for any project as speed.</p>
+                            <p className="text-lg text-gray-500"> . Ensure that designs are compatible with Relume Library Webflow components</p>
+                            <p className="text-lg text-gray-500"> . Make design changes to components faster.</p>
+                        </div>
+                </div>
+                <div className="textos text-gray-500 mt-3 max-w-3xl h-32 ml-6 ">
+                    <p className="text-lg ">You can use Figma Kit in unlimeted projects. Like the Relume Library, the components are designed to be as neutral, flexible, and scalable as possible to as a kick-starter for any project</p>
+                    <p>We'd love for you to try it out for your next project.</p>
                 </div>
             </div>
         </div>
