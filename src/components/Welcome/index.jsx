@@ -43,8 +43,8 @@ export default function Welcome(){
                     <p className=" flex h-24 w-80 mt-5">Built in partnership with the team at Minimal Square</p>
                     </div>
                     <div className="buttons flex gap-4 ml-24">
-                        <button><img src={Welcom} alt="" /></button>
-                        <button className="gap-6"><img src={Twiter} alt="" /></button>
+                        <a target="blank" href="https://www.minimal-square.com/"><img src={Welcom} alt="" /></a>
+                        <a target="blank" href="https://x.com/i/flow/login?redirect_after_login=%2Fminimalsquare" className="gap-6"><img src={Twiter} alt="" /></a>
                     </div>
                 </div>
                 </div>
