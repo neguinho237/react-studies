@@ -1,6 +1,8 @@
 import Symbol from "./src/assets/images/Symbol.svg"
 import Raio from "./src/assets/images/Raio.svg"
 import Social from "./src/assets/images/Social.svg"
+import Twiter from "./src/assets/images/Twiter.svg"
+import Welcom from "./src/assets/images/Welcome.svg"
 export default function Welcome(){
     return(
         <div className="Container ml- ">
@@ -39,6 +41,10 @@ export default function Welcome(){
                         <p className = " text-white text-end pt-9 mr-3 text-lg font-semibold">m.</p>
                     </div>
                     <p className=" flex h-24 w-80 mt-5">Built in partnership with the team at Minimal Square</p>
+                    </div>
+                    <div className="buttons flex gap-4 ml-24">
+                        <button><img src={Welcom} alt="" /></button>
+                        <button className="gap-6"><img src={Twiter} alt="" /></button>
                     </div>
                 </div>
                 </div>
