@@ -3,6 +3,7 @@ import Raio from "./src/assets/images/Raio.svg"
 import Social from "./src/assets/images/Social.svg"
 import Twiter from "./src/assets/images/Twiter.svg"
 import Welcom from "./src/assets/images/Welcome.svg"
+import Dan from "./src/assets/images/Pessoa1.svg"
 export default function Welcome(){
     return(
         <div className="Container ml- ">
@@ -48,6 +49,11 @@ export default function Welcome(){
                     </div>
                     <div className="flex justify-center mt-8">
                     <div className="Line h-1 w-80 bg-gray-400 flex justify-between"></div>
+                    </div>
+                    <div className="Pessoas ">
+                        <div className="Pessoa1">
+                            <img src={Dan} alt="" />
+                        </div>
                     </div>
                 </div>
                 </div>
