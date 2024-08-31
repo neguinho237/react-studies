@@ -37,7 +37,7 @@ export default function Welcome(){
                     <h1 className="text-2xl font-semibold flex ml-3 mt-3 ">Creators</h1>
                     </div>
                     <div className="flex gap-6">
-                    <div className="f gap-24 flex ml-3 mt-5 Quadrado preto w-16 h-16 bg-black">
+                    <div className="f rounded-md gap-24 flex ml-3 mt-5 Quadrado preto w-16 h-16 bg-black">
                         <p className = " text-white text-end pt-9 mr-3 text-lg font-semibold">m.</p>
                     </div>
                     <p className=" flex h-24 w-80 mt-5">Built in partnership with the team at Minimal Square</p>
@@ -45,6 +45,9 @@ export default function Welcome(){
                     <div className="buttons flex gap-4 ml-24">
                         <a target="blank" href="https://www.minimal-square.com/"><img src={Welcom} alt="" /></a>
                         <a target="blank" href="https://x.com/i/flow/login?redirect_after_login=%2Fminimalsquare" className="gap-6"><img src={Twiter} alt="" /></a>
+                    </div>
+                    <div className="flex justify-center mt-8">
+                    <div className="Line h-1 w-80 bg-gray-400 flex justify-between"></div>
                     </div>
                 </div>
                 </div>
