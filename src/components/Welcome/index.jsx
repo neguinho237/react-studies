@@ -63,28 +63,28 @@ export default function Welcome(){
                                 <p>Product Owner / Co-founder Minimal Square</p>
                             </div>
                         </div>
-                        <div className="Pessoa1 flex gap-4">
+                        <div className="Pessoa1 flex gap-4 mt-5">
                             <img className="w-" src={Pessoa1} alt="" />
                             <div className="palavras flex-col">
                                 <p  className=" text-base font-semibold">Nikola Radovanovic</p>
                                 <p>Designer / Co-founder Minimal Square</p>
                             </div>
                         </div>
-                        <div className="Pessoa1 flex gap-4">
+                        <div className="Pessoa1 flex gap-4 mt-5">
                             <img className="w-" src={Pessoa2} alt="" />
                             <div className="palavras flex-col">
                                 <p  className=" text-base font-semibold">Nemanja Milosevic</p>
                                 <p>Developer / Co-founder Minimal Square</p>
                             </div>
                         </div>
-                        <div className="Pessoa1 flex gap-4">
+                        <div className="Pessoa1 flex gap-4 mt-5">
                             <img className="w-" src={Pessoa3} alt="" />
                             <div className="palavras flex-col">
                                 <p  className=" text-base font-semibold">Adam Mura</p>
                                 <p>Collaborator / Co-founder Relume</p>
                             </div>
                         </div>
-                        <div className="Pessoa1 flex gap-4">
+                        <div className="Pessoa1 flex gap-4 mt-5 pb-6">
                             <img className="w-" src={Pessoa4} alt="" />
                             <div className="palavras flex-col">
                                 <p  className=" text-base font-semibold">Aleksandar Radovanovic</p>
