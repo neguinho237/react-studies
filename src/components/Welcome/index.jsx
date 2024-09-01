@@ -4,6 +4,11 @@ import Social from "./src/assets/images/Social.svg"
 import Twiter from "./src/assets/images/Twiter.svg"
 import Welcom from "./src/assets/images/Welcome.svg"
 import Dan from "./src/assets/images/Pessoa1.svg"
+import Pessoa1 from "./src/assets/images/Ellipse 3.svg"
+import Pessoa2 from "./src/assets/images/Ellipse 4.svg"
+import Pessoa3 from "./src/assets/images/Ellipse 5.svg"
+import Pessoa4 from "./src/assets/images/Ellipse 5-1.svg"
+
 export default function Welcome(){
     return(
         <div className="Container ml- ">
@@ -33,7 +38,7 @@ export default function Welcome(){
                     <h1 className="text-2xl font-semibold">Why did we build this?</h1>
                 </div>
                 </div>
-                <div className="mt-16 Quadrado w-96 h-96 bg-gray-300 mt rounded" >
+                <div className="mt-16 Quadrado w-96 h bg-gray-300 mt rounded" >
                     <div className="flex mt-3">
                     <h1 className="text-2xl font-semibold flex ml-3 mt-3 ">Creators</h1>
                     </div>
@@ -58,6 +63,35 @@ export default function Welcome(){
                                 <p>Product Owner / Co-founder Minimal Square</p>
                             </div>
                         </div>
+                        <div className="Pessoa1 flex gap-4">
+                            <img className="w-" src={Pessoa1} alt="" />
+                            <div className="palavras flex-col">
+                                <p  className=" text-base font-semibold">Aleksandar Radovanovic</p>
+                                <p>Product Owner / Co-founder Minimal Square</p>
+                            </div>
+                        </div>
+                        <div className="Pessoa1 flex gap-4">
+                            <img className="w-" src={Pessoa2} alt="" />
+                            <div className="palavras flex-col">
+                                <p  className=" text-base font-semibold">Aleksandar Radovanovic</p>
+                                <p>Product Owner / Co-founder Minimal Square</p>
+                            </div>
+                        </div>
+                        <div className="Pessoa1 flex gap-4">
+                            <img className="w-" src={Pessoa3} alt="" />
+                            <div className="palavras flex-col">
+                                <p  className=" text-base font-semibold">Aleksandar Radovanovic</p>
+                                <p>Product Owner / Co-founder Minimal Square</p>
+                            </div>
+                        </div>
+                        <div className="Pessoa1 flex gap-4">
+                            <img className="w-" src={Pessoa4} alt="" />
+                            <div className="palavras flex-col">
+                                <p  className=" text-base font-semibold">Aleksandar Radovanovic</p>
+                                <p>Product Owner / Co-founder Minimal Square</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 </div>
