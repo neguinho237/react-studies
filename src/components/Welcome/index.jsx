@@ -50,9 +50,13 @@ export default function Welcome(){
                     <div className="flex justify-center mt-8">
                     <div className="Line h-1 w-80 bg-gray-400 flex justify-between"></div>
                     </div>
-                    <div className="Pessoas ">
-                        <div className="Pessoa1">
-                            <img src={Dan} alt="" />
+                    <div className="Pessoas mt-8 ml-3 ">
+                        <div className="Pessoa1 flex gap-4">
+                            <img className="w-" src={Dan} alt="" />
+                            <div className="palavras flex-col">
+                                <p  className=" text-base font-semibold">Aleksandar Radovanovic</p>
+                                <p>Product Owner / Co-founder Minimal Square</p>
+                            </div>
                         </div>
                     </div>
                 </div>
