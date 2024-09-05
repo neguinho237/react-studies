@@ -88,7 +88,7 @@ export default function Welcome(){
                             <img className="w-" src={Pessoa4} alt="" />
                             <div className="palavras flex-col">
                                 <p  className=" text-base font-semibold">Aleksandar Radovanovic</p>
-                                <p>Designer / Relume</p>
+                                <p>Designer / Relume's</p>
                             </div>
                         </div>
 
@@ -123,7 +123,7 @@ export default function Welcome(){
                 <div className="ml-6 mt-12 linha max-w-3xl h-1 bg-slate-300 "></div>
                 <div className="Main2 ml-6 ">
                     <h1 className="text-5xl mt-11 font-semibold">Getting started</h1>
-                    <h2 className="font-semibold text-2xl mt-6">How i works</h2>
+                    <h2 className="font-semibold text-2xl mt-6">How its works</h2>
                 </div>
             </div>
         </div>
