@@ -123,7 +123,7 @@ export default function Welcome(){
                 <div className="ml-6 mt-12 linha max-w-3xl h-1 bg-slate-300 "></div>
                 <div className="Main2 ml-6 ">
                     <h1 className="text-5xl mt-11 font-semibold">Getting started</h1>
-                    <h2 className="font-semibold text-2xl mt-6">How its works</h2>
+                    <h2 className="font-semibold text-2xl mt-6">Não aguento mais essa vida de dev</h2>
                 </div>
             </div>
         </div>
