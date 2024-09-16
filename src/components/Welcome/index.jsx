@@ -124,7 +124,7 @@ export default function Welcome(){
                 <div className="Main2 ml-6 ">
                     <h1 className="text-5xl mt-11 font-semibold">Getting started</h1>
                     <h2 className="font-semibold text-2xl mt-6">Não aguento mais essa vida de dev</h2>
-                    <p>The team fuck fuck fuck at relume has put together a demo video to show you how to get started with this figma kit find it below along with other recouser</p>
+                    <p>Estrutura de dados é uma merda odeio essa materia e tudo que envolve back end</p>
                 </div>
             </div>
         </div>
