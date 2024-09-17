@@ -138,6 +138,11 @@ li{
     text-transform: capitalize;
 }
 
+.hero .row .left-sec .discover-btn span{
+    color: #fff;
+    font-size: 45px;
+}
+
 .information{
     display: flex;
     font-size: 10px;
