@@ -144,19 +144,23 @@ li{
     font-size: 45px;
 }
 
-.information{
+.hero .information{
     display: flex;
-    font-size: 10px;
+    width: 100%;
+    margin-top: 100px;
 }
 
-.information > .production{
-    display: flex;
-    flex-direction: column;
-    margin-top: 0%;
-
+.hero .information .production{
+    margin-right:  50px;
+    line-height: 3px;
 }
-.information > .productionT{
-    display: flex;
-    flex-direction: column;
 
+.hero .information .production h2{
+    font-size:  20px;
+    letter-spacing: 1px;
+}
+
+.hero .information .production p{
+    padding-right: 0;
+    letter-spacing: 1px;
 }

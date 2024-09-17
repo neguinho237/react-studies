@@ -33,7 +33,9 @@ export default function Carros (){
                             <div className="content">
                                 <h2><span>chevrolet</span>camaro</h2>
                                 <p>It is a long established fact that a set reader will distracted by the readable content of a page when looking at its layout technology.</p>
-                                <button className="discover-btn">Descobrir</button>
+                            </div>
+                            <button className="discover-btn">Descobrir</button>
+                            <div className="information">
                             <div className="production">
                                 <p>Production</p>
                                 <h2>1966-2020</h2>
@@ -43,7 +45,6 @@ export default function Carros (){
                                 <h2>George Angers</h2>
                             </div>
                             </div>
-                           
                         </div>
                     </div>
                 </div>
