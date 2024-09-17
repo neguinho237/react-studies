@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    background-color: #26284e;
 }
 
 a, a:hover{
@@ -131,7 +132,7 @@ li{
 }
 
 .hero .row .left-sec .discover-btn a{
-    color: #c62626;
+    color: #ff008c;
     font-size: 25px;
     letter-spacing: 2px;
     margin-right: 15px;
