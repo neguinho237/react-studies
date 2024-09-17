@@ -2,8 +2,12 @@ import "./styles.css"
 import Facebook from "./src/assets/images/Facebook.svg"
 import Instagram from "./src/assets/images/Instagram.svg"
 import X from "./src/assets/images/X.svg"
+// import 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/styles.css'
+// import'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css'
 export default function Carros (){
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
     return(
+       
         <body>
              <section className="header" id="header">
                 <div className="navbar">
@@ -46,10 +50,18 @@ export default function Carros (){
                             </div>
                             </div>
                         </div>
+                        <div className="rigth-sec">
+                            <div className="my-car">
+
+                            </div>
+                        </div>
                     </div>
                 </div>
 
              </section>
+           
+             <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
         </body>
     )
 }
