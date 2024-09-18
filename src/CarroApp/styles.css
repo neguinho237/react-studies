@@ -164,3 +164,15 @@ li{
     padding-right: 0;
     letter-spacing: 1px;
 }
+
+.hero .rigth-sec{
+    width: 70%;
+    padding-top: 100px;
+}
+
+.hero .rigth-sec{
+    width: 950px;
+    height: 550px;
+    margin: auto;
+    float: right;
+}
