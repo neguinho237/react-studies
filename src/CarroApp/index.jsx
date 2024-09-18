@@ -2,6 +2,11 @@ import "./styles.css"
 import Facebook from "./src/assets/images/Facebook.svg"
 import Instagram from "./src/assets/images/Instagram.svg"
 import X from "./src/assets/images/X.svg"
+import carBlack from "./src/assets/images/CamaroPreto.png"
+import carBlueR from "./src/assets/images/CamaroAzulR.png"
+import carRed from "./src/assets/images/CamaroVermelho.png"
+import carYellow from "./src/assets/images/CamaroAmarelo.png"
+import carBlue from "./src/assets/images/CamaroAzul.png"
 // import 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/styles.css'
 // import'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css'
 export default function Carros (){
