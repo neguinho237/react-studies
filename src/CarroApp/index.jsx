@@ -2,7 +2,21 @@ import "./styles.css"
 import Facebook from "./src/assets/images/Facebook.svg"
 import Instagram from "./src/assets/images/Instagram.svg"
 import X from "./src/assets/images/X.svg"
+import {Swiper, SwiperSlide} from 'swiper/react'
+import carYellow from "./src/assets/images/CamaroAmarelo.png"
+import carBlue from "./src/assets/images/CamaroAzul.png"
+import carBlueR from "./src/assets/images/CamaroAzulR.png"
+import carRed from "./src/assets/images/CamaroVermelho.png"
+import carCorv from "./src/assets/images/Corvetao.png"
+ 
 export default function Carros (){
+    const foto = [
+        {id: '1', image: carYellow},
+        {id: '2', image: carCorv},
+        {id: '3', image: carBlue},
+        {id: '4', image: carBlueR},
+        {id: '5', image: carRed},
+    ]
     return(    
         <body>
              <section className="header" id="header">
@@ -48,7 +62,19 @@ export default function Carros (){
                         </div>
                         <div className="rigth-sec">
                             <div className="my-car">
-                                
+                                <Swiper 
+                                slidesPerView={1}
+                                 pagination={{clickable: true}} 
+                                 navigation>
+                                    {foto.map( (item) => (
+                                        <SwiperSlide key={item.id}>
+                                            <img 
+                                            alt="Slider"
+                                            className="slide-item"
+                                            src={item.image}/>
+                                        </SwiperSlide>
+                                    ))}
+                                </Swiper>
                             </div>
                         </div>
                     </div>
