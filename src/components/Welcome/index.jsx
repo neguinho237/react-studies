@@ -124,7 +124,7 @@ export default function Welcome(){
                 <div className="Main2 ml-6 ">
                     <h1 className="text-5xl mt-11 font-semibold">Getting started</h1>
                     <h2 className="font-semibold text-2xl mt-6">Não aguento mais essa vida de dev</h2>
-                    <p>Estrutura de dados é uma merda odeio essa materia e tudo que envolve back end</p>
+                    <p>Estrutura de dados é uma lalalalal merda odeio essa materia e tudo que envolve back end</p>
                 </div>
             </div>
         </div>

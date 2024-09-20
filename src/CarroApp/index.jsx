@@ -5,7 +5,7 @@ import X from "./src/assets/images/X.svg"
 import {Swiper, SwiperSlide} from 'swiper/react'
 import carYellow from "./src/assets/images/CamaroAmarelo.png"
 import carBlue from "./src/assets/images/CamaroAzul.png"
-import carBlueR from "./src/assets/images/CamaroAzulR.png"
+import carBlueR from "./src/assets/images/CamaroAzulR.png"  
 import carRed from "./src/assets/images/CamaroVermelho.png"
 import carCorv from "./src/assets/images/Corvetao.png"
  
