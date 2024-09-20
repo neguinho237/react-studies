@@ -16,7 +16,7 @@ export default function Welcome(){
                 <div className="flex justify-between  mt-16">
                     <div className="flex ml-5 gap-4 ">
                     <img src={Symbol} alt="" />
-                    <h1 className="mt-3 fon">Relume</h1>
+                    <h1 className="mt-3 fon">Relumes</h1>
                     </div>
                     <li className="mt-4"><a className="text-slate-950 mr-7 " href="">relume.io</a></li>
                 </div>
