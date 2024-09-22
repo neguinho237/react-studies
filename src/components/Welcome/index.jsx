@@ -108,7 +108,7 @@ export default function Welcome(){
                     
                     <div className="raio flex gap-3 mt-6">
                         <img src={Social} alt="" />
-                        <h1 className="text-sm font-semibold">To improve your Figma to Webflow workflow</h1>
+                        <h1 className="text-sm font-semibold">To improve your Figma to Webflow workflokow</h1>
                     </div>
                     <div className="ml-6 mt-3">
                             <p className="text-lg text-gray-500"> . Design wireframes for any project as speed.</p>
@@ -123,7 +123,7 @@ export default function Welcome(){
                 <div className="ml-6 mt-12 linha max-w-3xl h-1 bg-slate-300 "></div>
                 <div className="Main2 ml-6 ">
                     <h1 className="text-5xl mt-11 font-semibold">Getting started</h1>
-                    <h2 className="font-semibold text-2xl mt-6">Não aguento mais essa vida de dev</h2>
+                    <h2 className="font-semibold text-2xl mt-6">Não aguento mais essa vida de dev Boa pa nois amo viver</h2>
                     <p>Estrutura de dados é uma lalalalal merda odeio essa materia e tudo que envolve back end</p>
                 </div>
             </div>
