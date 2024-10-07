@@ -103,7 +103,7 @@ export default function Welcome(){
                     <div className="ml-6 mt-3">
                             <p className="text-lg text-gray-500"> . Design wireframes for any project as speed.</p>
                             <p className="text-lg text-gray-500"> . Ensure that designs are compatible with Relume Library Webflow components</p>
-                            <p className="text-lg text-gray-500"> . Make ola mundo design changes to components faster.</p>
+                            <p className="text-lg text-gray-500"> . Make ola mundo design changes to components faster low and more for shit.</p>
                         </div>
                     
                     <div className="raio flex gap-3 mt-6">
