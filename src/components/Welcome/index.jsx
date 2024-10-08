@@ -32,8 +32,8 @@ export default function Welcome(){
                 <div>
                     <h1 className="text-4xl font-bold mt-12">About</h1>
                     <p className="text-lg text-gray-500 mt-6">This Figma Library built the community for the community.</p>
-                    <p className="text-lg text-gray-500 mt-6 max-w-3xl h-36">After seeing many request for a Figma version of Relume Library the world's largest webflow component library the team minimal version
-                        took it upon themselves to build it. not only have they gone an epic job of building 900+ pixel-perfect Figma components
+                    <p className="text-lg text-gray-500 mt-6 max-w-3xl h-36">After seeing many  for a Figma version of Relume Library the world's largest webflow component library the team minimal version
+                        took it upon themselves to build it. not only have they gone an epic jolalala of building 900+ pixel-perfect Figma components
                     </p>
                     <h1 className="text-2xl font-semibold">Why did we build this?</h1>
                 </div>
