@@ -112,7 +112,7 @@ export default function Welcome(){
                     </div>
                     <div className="ml-6 mt-3">
                             <p className="text-lg text-gray-500"> . Design wireframes for any project as speed.</p>
-                            <p className="text-lg text-gray-500"> . Ensure that designs are compatible with Relume Library Webflow components</p>
+                            <p className="text-lg text-gray-500"> . Na dz7 é piru nas minina</p>
                             <p className="text-lg text-gray-500"> Interlagos</p>
                         </div>
                 </div>
