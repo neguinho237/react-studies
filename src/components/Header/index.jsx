@@ -9,8 +9,8 @@ export default function Header (){
                 <button className="bg-black text-white w-24 h-11">Sign up</button>
             </div>
             <div className="flex gap-1 mt-6 ">
-            <p>By clicking Sign Up you're confirming that you agree with our</p>
-            <a href="Terms"> Terms and Conditions.</a>
+            <p>By clicking Sign Up you're confirakjsfjasfjkaming that you agree with our</p>
+            <a href="Terms"> Terms Conditions.</a>
             </div>
         </div>
     )
