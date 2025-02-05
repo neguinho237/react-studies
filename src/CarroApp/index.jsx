@@ -56,7 +56,7 @@ export default function Carros (){
                             </div>
                             <div className="production">
                                 <p>Designer</p>
-                                <h2>George Angers</h2>
+                                <h2>Sprins Angers</h2>
                             </div>
                             </div>
                         </div>
